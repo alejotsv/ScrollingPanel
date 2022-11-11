@@ -1,4 +1,9 @@
 package com.java21days;
 
-public class ScrollingPanel {
+import javax.swing.*;
+
+public class ScrollingPanel extends JFrame {
+    ScrollingPanel(String title){
+        super(title);
+    }
 }
